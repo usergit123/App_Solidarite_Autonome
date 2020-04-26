@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF2FB"
+    tools:context=".menu_connexion">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="483dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="631dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banniere" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="515dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Besoins"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn9"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="455dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Mentions légales"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn10"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="395dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="FAQ"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn11"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="335dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Qui sommes nous"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn12"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="407dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="275dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Stock"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn13"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="215dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Région"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn14"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="155dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Mon compte"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn8"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="2dp"
+
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="575dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Accueil"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

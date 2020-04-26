@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFF2FB"
-    tools:context=".MainActivity">
+    tools:context=".menu">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView2"
         android:layout_width="483dp"
         android:layout_height="100dp"
         android:layout_marginBottom="631dp"
@@ -16,25 +16,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/banniere" />
+
 
     <Button
         android:id="@+id/angry_btn"
 
         android:layout_width="407dp"
         android:layout_height="49dp"
+        android:layout_marginStart="4dp"
 
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="547dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="135dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="515dp"
         android:background="@drawable/buttonshape"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Connexion"
+        android:text="Besoins"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,21 +42,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/angry_btn3"
+        android:id="@+id/angry_btn5"
 
         android:layout_width="407dp"
         android:layout_height="49dp"
+        android:layout_marginStart="4dp"
 
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="605dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="77dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginBottom="455dp"
         android:background="@drawable/buttonshape"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Inscription"
+        android:text="Mentions légales"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,21 +64,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/angry_btn2"
+        android:id="@+id/angry_btn6"
 
         android:layout_width="407dp"
         android:layout_height="49dp"
+        android:layout_marginStart="4dp"
 
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="486dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginBottom="395dp"
         android:background="@drawable/buttonshape"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="Menu"
+        android:text="FAQ"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,21 +85,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="218dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="246dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="428dp"
-        android:text="Présentation"
+    <Button
+        android:id="@+id/angry_btn7"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+
+        android:layout_marginTop="347dp"
+        android:layout_marginBottom="335dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Qui sommes nous"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/angry_btn4"
+
+        android:layout_width="407dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="575dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Accueil"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
